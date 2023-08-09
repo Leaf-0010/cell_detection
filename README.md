@@ -37,14 +37,18 @@ Python、Pytorch、PyQT
    数据预处理可参考data_process_core.py
 
 ## 四、训练模型下载
+weights文件夹中best_cc.pt为细胞核数目检测测试模型，训练轮次较少。
+
+完整的weights文件请点击下述链接进行下载：
+
+链接：https://pan.baidu.com/s/1vrD4EQXX2w2MctspOcRe2g?pwd=ty35 
+提取码：ty35
+
 weights中包含三个已经训练好的模型，预训练模型yolov5-l
 
 1. best.pt：细胞核数目检测模型
 2. best_malaria.pt：疟疾细胞检测模型
 3. best_bccd.pt：血细胞检测模型
-
-链接：https://pan.baidu.com/s/1vrD4EQXX2w2MctspOcRe2g?pwd=ty35 
-提取码：ty35
 
 ## 五、项目运行说明
 
