@@ -60,4 +60,8 @@ weights中包含三个已经训练好的模型，预训练模型yolov5-l
 
 ## 六、项目结果展示
 
+![](result-1.png)
+
+![](result-2.png)
+
 
