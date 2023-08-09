@@ -122,23 +122,12 @@ class CamShow(QMainWindow, Ui_MainWindow):
         self.db_connection = pymysql.connect(
             host="localhost",
             user="root",
-            password="w5t5001390",
+            password="******",
             database="mytest"
         )
 
         print("连接成功")
-        #     QMessageBox.information(self, "连接成功", "数据库连接成功！")
-        #     # self.ui.dbInfoLabel.setText(f"数据库信息：主机名：{host} 用户名：{user} 数据库：{database}")
-        # except pymysql.Error as e:
-        #     QMessageBox.warning(self, "连接失败", f"无法连接到数据库：{str(e)}")
-        #     # self.ui.dbInfoLabel.setText("数据库信息：无")
-    # #展示登陆页面
-    # def showLoginDialog(self):
-    #     loginDialog = QDialog(self)
-    #     loginDialog.ui = Ui_LoginDialog()
-    #     loginDialog.ui.setupUi(loginDialog)
-    #     loginDialog.ui.connectButton.clicked.connect(lambda: self.connectToDB(loginDialog))
-    #     loginDialog.exec_()
+
 
     #加载图片
     def loadImage(self):
