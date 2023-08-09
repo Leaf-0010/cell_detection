@@ -36,8 +36,13 @@ Python、Pytorch、PyQT
 
    数据预处理可参考data_process_core.py
 
+## 四、训练模型下载
+weights中包含三个已经训练好的模型，预训练模型yolov5-l
+weights文件下载链接：
+链接：https://pan.baidu.com/s/1vrD4EQXX2w2MctspOcRe2g?pwd=ty35 
+提取码：ty35
 
-## 四、项目运行说明
+## 五、项目运行说明
 
 1. 注意将main.py函数中数据库连接的相关信息进行修改
 2. 直接运行main.py即可打开用户界面，按照界面提示进行操作即可
