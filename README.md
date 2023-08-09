@@ -38,7 +38,7 @@ Python、Pytorch、PyQT
 
 ## 四、训练模型下载
 weights中包含三个已经训练好的模型，预训练模型yolov5-l
-weights文件下载链接：
+
 链接：https://pan.baidu.com/s/1vrD4EQXX2w2MctspOcRe2g?pwd=ty35 
 提取码：ty35
 
