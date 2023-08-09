@@ -20,6 +20,8 @@ Python、Pytorch、PyQT
 10. runs/train：训练结果默认保存路径
 11. test_images：测试图片
 
+注：本项目在yolov5源码基础上进行开发，部分文件为yolo默认配置文件
+
 ## 三、训练数据说明
 
 1. BCCD数据集：该数据集共有三类364张图像：（WBC白细胞），RBC（红细胞）和Platelets。3个类别中有4888个标签（有0个空示例）。可直接训练使用。
